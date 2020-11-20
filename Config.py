@@ -12,7 +12,7 @@ class Config():
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = "1476270763:AAGTCs3O_ms1jBR5jTGHVXkjB7AeqDoqvZ4"
-    DATABASE_URL = "https://tgsubscribe.herokuapp.com/"
+    DATABASE_URL = "postgres://yjycsokkkeyfcq:2b2418ac99afe149d892c6f31bebe05f687b74ef4b6c3b2fefe3fb83cc88becc@ec2-54-85-13-135.compute-1.amazonaws.com:5432/deatu63gfc1bhd"
     APP_ID = "2993816"
     API_HASH = "7fb36e8000845a3834d852f1bd717469"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
