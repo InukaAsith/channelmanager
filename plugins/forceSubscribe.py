@@ -50,10 +50,10 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "ආයුබෝවන් {} !, ඔයා අපේ [InfinityJE channel](https://t.me/{}) එක් තාම *Subscribe* කරල නෑ. /n කරුණාකරල ඒකට [join](https://t.me/{}) වෙලා පහල තියන **UNMUTE ME** Button එක touch කරන්න.".format(message.from_user.mention, channel, channel),
+              "ආයුබෝවන් {} !, ඔයා අපේ [InfinityJE channel](https://t.me/{}) එක් තාම *Subscribe* කරල නෑ. /n කරුණාකරල ඒකට [join](https://t.me/{}) වෙලා පහල තියන **UNMUTE ME** Button එක touch කරන්න. /n [👉 OUR CHANNEL 👈](https://t.me/joinchat/AAAAAFI57qn9jXd9FMAMOQ) ".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
-                 [[InlineKeyboardButton("Join Our Channel", url="@infje")]]
+
                  [[InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")]]
               )
           )
