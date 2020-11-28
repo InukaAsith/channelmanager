@@ -51,7 +51,7 @@ def _check_member(client, message):
         try:
           sent_message = message.reply_text(
             
-              "ආයුබෝවන් {} ! 🙏, \n \n ඔයා අපේ @{} Channel එක් තාම Subscribe කරල නෑ.😭 \n කරුණාකරල ඒකට Join වෙලා පහල තියන UNMUTE ME Button එක touch කරන්න. \n \n [👉 OUR CHANNEL 👈](https://t.me/{})".format(message.from_user.mention, channel, channel),
+              "ආයුබෝවන් {} ! 🙏, \n \n ඔයා අපේ @{} Channel එක තාම Subscribe කරල නෑ.😭 \n කරුණාකරල ඒකට Join වෙලා පහල තියන UNMUTE ME Button එක touch කරන්න. \n \n [👉 OUR CHANNEL 👈](https://t.me/{})".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
 
