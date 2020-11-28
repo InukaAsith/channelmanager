@@ -44,8 +44,8 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = "https://t.me/inukaasith"
         button = [
-            [InlineKeyboardButton(text = 'Join our group', url="https://t.me/Tech_Wizard_Ent")],
-            [InlineKeyboardButton(text = 'Feature Request & Issues', url=url)],
+            [InlineKeyboardButton(text = 'Keep in touch with technology', url="https://infinityje.com")],
+            [InlineKeyboardButton(text = 'Contact developer', url=url)],
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
         ]
     else:
