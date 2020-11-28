@@ -10,7 +10,7 @@
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
-      "required": false,
+      
       "value": "ANYTHING"
     },
     "BOT_TOKEN": {
