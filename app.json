@@ -1,0 +1,44 @@
+{
+  "name": "Channel Manager RoBot",
+  "description": "Advanced Force subscribe bot!",
+  
+  ],
+  "repository": "hhttps://github.com/InukaAsith/channelmanager",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables",
+      "required": false,
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "required": true,
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Your telegram app ID (get it from my.telegram.org)",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your telegram api hash (get it from my.telegram.org)",
+      "required": true,
+      "value": ""
+    },
+  
+    "DATABASE_URL": {
+      "description": "Keep this empty if you don't have a database",
+      "required": false,
+      "value": "sqldbtype://username:pw@hostname:port/db_name"
+    },
+    
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10"
+      }
+    }
+  ]
+}
