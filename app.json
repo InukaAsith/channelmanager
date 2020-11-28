@@ -1,7 +1,10 @@
 {
   "name": "Channel Manager RoBot",
   "description": "Advanced Force subscribe bot!",
-  
+  "keywords": [
+    "telegram",
+    "eaglescout",
+    "forcesub"
   ],
   "repository": "hhttps://github.com/InukaAsith/channelmanager",
   "env": {
