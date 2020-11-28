@@ -25,7 +25,7 @@ def _onUnMuteRequest(client, cb):
             if cb.message.reply_to_message.from_user.id == user_id:
               cb.message.delete()
           except UserNotParticipant:
-            client.answer_callback_query(cb.id, text="❗ අපේ @InfJE 'channel' එකට Join වෙලා 'UnMute Me' button එක ආපහු ඔබන්න.", show_alert=True)
+            client.answer_callback_query(cb.id, text="❗ අපේ @Tech_Wizard_Entertainment 'channel' එකට Join වෙලා 'UnMute Me' button එක ආපහු ඔබන්න.", show_alert=True)
       else:
         client.answer_callback_query(cb.id, text="❗ You are muted by admins for other reasons.", show_alert=True)
     else:
@@ -50,7 +50,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "ආයුබෝවන් {} ! 🙏, \n ඔයා අපේ [InfinityJE channel](https://t.me/{}) එක් තාම Subscribe කරල නෑ.😭 \n කරුණාකරල ඒකට [join](https://t.me/{}) වෙලා පහල තියන UNMUTE ME Button එක touch කරන්න. \n \n [👉 OUR CHANNEL 👈](https://t.me/joinchat/AAAAAFI57qn9jXd9FMAMOQ)".format(message.from_user.mention, channel, channel),
+              "ආයුබෝවන් {} ! 🙏, \n \n ඔයා අපේ [Tech Wizard Entertainment channel](https://t.me/{}) එක් තාම Subscribe කරල නෑ.😭 \n කරුණාකරල ඒකට [join](https://t.me/{}) වෙලා පහල තියන UNMUTE ME Button එක touch කරන්න. \n \n [👉 OUR CHANNEL 👈](https://t.me/Tech_Wizard_Entertainment)".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
 
