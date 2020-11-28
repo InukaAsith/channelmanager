@@ -25,7 +25,7 @@ def _onUnMuteRequest(client, cb):
             if cb.message.reply_to_message.from_user.id == user_id:
               cb.message.delete()
           except UserNotParticipant:
-            client.answer_callback_query(cb.id, text=f"❗ අපේ @{channel} 'channel' එකට Join වෙලා 'UnMute Me' button එක ආපහු ඔබන්න.", show_alert=True)
+            client.answer_callback_query(cb.id, text=f"❗ අපේ @{channel} channel එකට Join වෙලා 'UnMute Me' button එක ආපහු ඔබන්න.", show_alert=True)
       else:
         client.answer_callback_query(cb.id, text="❗ ඔයාව වෙන හේතුවක් නිසා Admin ල mute කරලයි ඉන්නෙ.", show_alert=True)
     else:
