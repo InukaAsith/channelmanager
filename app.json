@@ -1,13 +1,17 @@
 {
-  "name": "Channel Manager RoBot",
-  "description": "Advanced Force subscribe bot!",
+  "name": "Forcesub",
+  "description": "This is a telegram bot writen in python for managing group/channel.",
   "keywords": [
     "telegram",
     "eaglescout",
     "forcesub"
   ],
-  "repository": "hhttps://github.com/InukaAsith/channelmanager",
+  
+  "repository": "https://github.com/AmineSoukara/ForceSubscribeRobot",
+  "success_url": "https://github.com/AmineSoukara/ForceSubscribeRobot",
+  "website": "https://github.com/AmineSoukara/ForceSubscribeRobot",  
   "env": {
+    
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
       
@@ -43,5 +47,15 @@
         "version": "10"
       }
     }
-  ]
+  
+  ],
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }  
 }
+
+
