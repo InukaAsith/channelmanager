@@ -11,10 +11,10 @@ class Config():
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1450415354:AAG42Uks4Mr1qk0wa-XprL7JDUIy3-Jg5Yw"
-    DATABASE_URL = "postgres://xfntzsgsqzkqnk:38909f8e763065fdc4ecf90d629e31cb5dc8da02e857942375ebf7391181dc7f@ec2-34-200-106-49.compute-1.amazonaws.com:5432/daaio549srcseo"
-    APP_ID = "1994857"
-    API_HASH = "fce76b799d09790680bb71ee997ff38f"
+    BOT_TOKEN = ""
+    DATABASE_URL = ""
+    APP_ID = ""
+    API_HASH = ""
     SUDO_USERS = list(set(int(x) for x in ''.split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-        "**Developed by @Kaveesha_Induwara and @InukaASiTH**"
+        "**Developed by @InukaASiTH**"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n__ඔයාගෙ ගෲප් එකේ මෙම්බර්ස්ල Channel එකක් හෝ කිහිපයක් Subscribe කරනකන් Message දාන එක නවත්තන්න මට පුලූවන්.\nLearn more at /help__"
